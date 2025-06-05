@@ -6,7 +6,8 @@ import numpy as np
 
 # %%
 #data loading
-rawdata = pd.read_csv(r"D:\william\OneDrive - UW-Madison\UW-Madison\718\PJ3\Climate Project Data.csv").copy()
+#filepath = r"D:\william\OneDrive - UW-Madison\UW-Madison\718\PJ3\Climate Project Data.csv"
+rawdata = pd.read_csv(filepath).copy()
 
 
 # %%

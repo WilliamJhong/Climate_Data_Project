@@ -13,26 +13,26 @@ To better understand how global warming is affecting Alaska’s climate, I gathe
 
 # Graphs
 
-![alt text](average_daily_temperature_alaska.png)
+![alt text](Images/average_daily_temperature_alaska.png)
 *Graph 1: Average Daily Temperature in Alaska*
 
 This graph shows the average daily temperature in Alaska over the past two decades. Interestingly, there hasn’t been a clear upward trend in temperature. While that might seem reassuring, we can still observe that the average lowest temperatures have been slightly warmer in recent years compared to more than a decade ago.
 
 
-![alt text](average_daily_temperature_difference_alaska.png)
+![alt text](Images/average_daily_temperature_difference_alaska.png)
 *Graph 2: Average Daily Temperature Difference*
 
 The second graph presents the daily temperature difference. Like the first graph, it doesn’t show strong evidence of dramatic change. However, there appears to be a subtle downward trend, suggesting that daily temperature swings may be narrowing over time.
 
-![alt text](average_daily_precipitation_alaska.png)
+![alt text](Images/average_daily_precipitation_alaska.png)
 *Graph 3: Average Daily Precipitation*
 
 This graph illustrates average daily precipitation. Overall, precipitation patterns in Alaska have remained relatively stable over the last 20 years. Climate change does not appear to have significantly disrupted rainfall levels.
 
-![alt text](average_daily_snow_fall_alaska.png)
+![alt text](Images/average_daily_snow_fall_alaska.png)
 *Graph 4: Average Daily Snow Fall*
 
-![alt text](snow_days_per_year_alaska.png)
+![alt text](Images/snow_days_per_year_alaska.png)
 *Graph 5: Snow Days per Year*
 
 Graph 4 and 5 are an interesting combination. Graph 4 shows average daily snowfall, which reveals several unusually high peaks over the past four years—possibly indicating more frequent or intense snowstorms.

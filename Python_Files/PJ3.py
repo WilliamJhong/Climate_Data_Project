@@ -7,13 +7,13 @@ import numpy as np
 # %%
 #data loading
 #filepath = r"D:\william\OneDrive - UW-Madison\UW-Madison\718\PJ3\Climate Project Data.csv"
-rawdata = pd.read_csv(filepath).copy()
+rawdata = pd.read_csv(filepath).copy() #Why are you copying? This must be quite slow
 
 
 # %%
 # Graph 1: Average Daily Temperature in Alaska
 df = rawdata[["NAME", "DATE", "DailyAverageDryBulbTemperature"]].copy()
-df["DATE"] = pd.to_datetime(df["DATE"])
+df["DATE"] = pd.to_datetime(df["DATE"])  # You do this line a lot. 
 df = df.dropna().reset_index(drop=True)
 df = df.pivot(index="DATE", columns="NAME", values="DailyAverageDryBulbTemperature")
 df["Average_Daily_Temperature"] = df.mean(axis=1)
